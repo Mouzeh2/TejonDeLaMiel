@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería del Tejón de la Miel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Galería De Fotos</h1>
+    </header>
+<nav>
+    <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+    <a href="detalles.html"><i class="fas fa-info-circle"></i> Detalles</a>
+    <a href="galeria.html" class="active"><i class="fas fa-images"></i> Galería</a>
+    <a href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a>
+</nav>
+    <main>
+        <section id="galeria">
+            <div class="galeria-container">
+                <div class="imagen-con-descripcion">
+                    <a href="#modal1">
+                        <img src="https://misanimales.com/wp-content/uploads/2020/04/tej%C3%B3n-de-miel-tumbado.jpg" alt="Tejón de la Miel 1">
+                    </a>
+                    <p>Tejón descansando</p>
+                </div>
+                <div class="imagen-con-descripcion">
+                    <a href="#modal2">
+                        <img src="https://cdn0.bioenciclopedia.com/es/posts/2/8/8/alimentacion_del_tejon_de_la_miel_882_2_600.jpg" alt="Tejón de la Miel 2">
+                    </a>
+                    <p>Tejón mirando a la cámara</p>
+                </div>
+                <div class="imagen-con-descripcion">
+                    <a href="#modal3">
+                        <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/265592368/original.jpg" alt="Tejón de la Miel 3">
+                    </a>
+                    <p>Tejón con su cría</p>
+                </div>
+                <div class="imagen-con-descripcion">
+                    <a href="#modal4">
+                        <img src="https://inaturalist-open-data.s3.amazonaws.com/photos/115634610/large.jpg" alt="Tejón de la Miel 4">
+                    </a>
+                    <p>Tejón caminando</p>
+                </div>
+                <div class="imagen-con-descripcion">
+                    <a href="#modal5">
+                        <img src="https://i.pinimg.com/originals/ee/07/23/ee0723393ce897993091112775d89804.jpg" alt="Tejón de la Miel 5">
+                    </a>
+                    <p>Tejón joven</p>
+                </div>
+            </div>
+            
+            
+            <div id="modal1" class="modal">
+                <a href="#galeria" class="cerrar">&times;</a>
+                <a href="#modal5" class="navegacion anterior">&#10094;</a>
+                <a href="#modal2" class="navegacion siguiente">&#10095;</a>
+                <img class="modal-contenido" src="https://misanimales.com/wp-content/uploads/2020/04/tej%C3%B3n-de-miel-tumbado.jpg" alt="Tejón de la Miel 1">
+                <div class="descripcion-modal">Tejón descansando</div>
+            </div>
+            
+            <div id="modal2" class="modal">
+                <a href="#galeria" class="cerrar">&times;</a>
+                <a href="#modal1" class="navegacion anterior">&#10094;</a>
+                <a href="#modal3" class="navegacion siguiente">&#10095;</a>
+                <img class="modal-contenido" src="https://cdn0.bioenciclopedia.com/es/posts/2/8/8/alimentacion_del_tejon_de_la_miel_882_2_600.jpg" alt="Tejón de la Miel 2">
+                <div class="descripcion-modal">Tejón mirando a la cámara</div>
+            </div>
+            
+            <div id="modal3" class="modal">
+                <a href="#galeria" class="cerrar">&times;</a>
+                <a href="#modal2" class="navegacion anterior">&#10094;</a>
+                <a href="#modal4" class="navegacion siguiente">&#10095;</a>
+                <img class="modal-contenido" src="https://inaturalist-open-data.s3.amazonaws.com/photos/265592368/original.jpg" alt="Tejón de la Miel 3">
+                <div class="descripcion-modal">Tejón con su cría</div>
+            </div>
+            
+            <div id="modal4" class="modal">
+                <a href="#galeria" class="cerrar">&times;</a>
+                <a href="#modal3" class="navegacion anterior">&#10094;</a>
+                <a href="#modal5" class="navegacion siguiente">&#10095;</a>
+                <img class="modal-contenido" src="https://inaturalist-open-data.s3.amazonaws.com/photos/115634610/large.jpg" alt="Tejón de la Miel 4">
+                <div class="descripcion-modal">Tejón caminando</div>
+            </div>
+            
+            <div id="modal5" class="modal">
+                <a href="#galeria" class="cerrar">&times;</a>
+                <a href="#modal4" class="navegacion anterior">&#10094;</a>
+                <a href="#modal1" class="navegacion siguiente">&#10095;</a>
+                <img class="modal-contenido" src="https://i.pinimg.com/originals/ee/07/23/ee0723393ce897993091112775d89804.jpg" alt="Tejón de la Miel 5">
+                <div class="descripcion-modal">Tejón joven</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Rudy Castillo Alarcón &copy; 2025 | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

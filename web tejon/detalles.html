@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Tejón de la Miel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .content-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        
+        .content-section h2 {
+            color: #27343B;
+            margin-top: 40px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+            font-size: 1.8rem;
+        }
+        
+        .content-section p {
+            margin-bottom: 20px;
+            line-height: 1.7;
+            text-align: justify;
+        }
+        
+        .content-section ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        
+        .content-section ul li {
+            margin-bottom: 10px;
+        }
+        
+        .data-table {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+        
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        
+        th {
+            background-color: #27343B;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .datos-curiosos {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        
+        .datos-curiosos h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .tarjetas-curiosidades {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .tarjeta-curiosa {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+            border-left: 4px solid #FFA500;
+        }
+        
+        .tarjeta-curiosa:hover {
+            transform: translateY(-5px);
+        }
+        
+        .tarjeta-curiosa h3 {
+            color: #27343B;
+            margin: 15px 0;
+        }
+        
+        .tarjeta-curiosa i {
+            font-size: 2rem;
+            color: #FFA500;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-paw"></i> Detalles del Tejón de la Miel</h1>
+    </header>
+    <nav>
+        <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+        <a href="detalles.html" class="active"><i class="fas fa-info-circle"></i> Detalles</a>
+        <a href="galeria.html"><i class="fas fa-images"></i> Galería</a>
+        <a href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a>
+    </nav>
+    <main>
+        <section id="detalles">
+            <div class="content-section">
+                <h2><i class="fas fa-globe-americas"></i> Hábitat y Distribución</h2>
+                <p>El tejón de la miel (Mellivora capensis) habita en diversos ecosistemas, mostrando una notable adaptabilidad. Se distribuye por África subsahariana, la Península Arábiga y el Subcontinente indio, desde el nivel del mar hasta 2,600m de altitud.</p>
+                <p>Prefiere zonas con cobertura vegetal suficiente para esconderse, pero también habita en áreas áridas y semiáridas.</p>
+                
+                <h2><i class="fas fa-utensils"></i> Alimentación y Dieta</h2>
+                <p>Este omnívoro oportunista tiene una dieta variada que incluye animales pequeños (40% de su dieta), frutas y vegetales (30%), insectos (20%) y miel y larvas (10%).</p>
+                <p>Su resistencia al veneno le permite cazar serpientes venenosas, incluyendo cobras y víboras.</p>
+                
+                <h2><i class="fas fa-baby"></i> Reproducción y Ciclo Vital</h2>
+                <p>El período de gestación del tejón de la miel es de 6-8 semanas, con 1-2 crías por camada. Alcanzan la madurez sexual a los 12-16 meses y tienen una longevidad de 7-10 años en estado salvaje (hasta 24 años en cautiverio).</p>
+                <p>Las crías nacen ciegas y permanecen con la madre hasta los 12-16 meses, aprendiendo habilidades de caza y supervivencia.</p>
+                
+                <h2><i class="fas fa-shield-alt"></i> Estado de Conservación</h2>
+                <p>Según la UICN, el tejón de la miel tiene un estado de conservación de "Preocupación Menor", con una población estable. Sin embargo, enfrenta amenazas como la pérdida de hábitat y la caza.</p>
+                <p>Aunque no está en peligro inmediato, la destrucción de su hábitat y la caza por su piel y como trofeo son preocupaciones crecientes.</p>
+            </div>
+
+            <div class="data-table">
+                <h2><i class="fas fa-table"></i> Datos Clave del Tejón de la Miel</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Detalles</th>
+                            <th>Curiosidades</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fas fa-ruler-combined"></i> Tamaño</td>
+                            <td>55-77 cm (cuerpo) + 12-30 cm (cola)</td>
+                            <td>Pesan 9-16 kg, con machos más grandes que hembras</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-running"></i> Comportamiento</td>
+                            <td>Principalmente nocturno y solitario</td>
+                            <td>Pueden excavar madrigueras en solo 10 minutos</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-shield-virus"></i> Defensas</td>
+                            <td>Piel gruesa y suelta, fuerte mordida</td>
+                            <td>Resistentes al veneno de serpientes</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fas fa-brain"></i> Inteligencia</td>
+                            <td>Capacidad de usar herramientas</td>
+                            <td>Uno de los mustélidos más inteligentes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="datos-curiosos">
+                <h2><i class="fas fa-lightbulb"></i> Datos Curiosos</h2>
+                <div class="tarjetas-curiosidades">
+                    <div class="tarjeta-curiosa">
+                        <i class="fas fa-hands-helping"></i>
+                        <h3>Asociación con pájaros</h3>
+                        <p>El pájaro indicador guía al tejón a colmenas a cambio de cera y larvas.</p>
+                    </div>
+                    <div class="tarjeta-curiosa">
+                        <i class="fas fa-skull-crossbones"></i>
+                        <h3>Ferocidad legendaria</h3>
+                        <p>En el Libro Guinness como "animal más intrépido".</p>
+                    </div>
+                    <div class="tarjeta-curiosa">
+                        <i class="fas fa-arrows-alt"></i>
+                        <h3>Flexibilidad</h3>
+                        <p>Pueden girar dentro de su piel para defenderse de atacantes.</p>
+                    </div>
+                    <div class="tarjeta-curiosa">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <h3>Velocidad</h3>
+                        <p>Corren a 25 km/h y pueden escalar árboles con facilidad.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-bottom">
+            <p>Rudy Castillo Alarcón &copy; 2025 | Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
